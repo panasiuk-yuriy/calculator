@@ -1,0 +1,9 @@
+@import './index.scss';
+
+.calculator {
+  width: 100%;
+  margin: 0 auto;
+  background: rgb(202, 231, 245);
+  padding: 20px;
+  max-width: ($width-button + ($margin-button * 2)) * 4;
+}
